@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Intravision.DataAccess\Intravision.DataAccess.csproj" />
     <ProjectReference Include="..\Intravision.Domain\Intravision.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Scripts\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>

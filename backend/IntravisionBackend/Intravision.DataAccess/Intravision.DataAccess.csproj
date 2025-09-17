@@ -7,15 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Intravision.Application\Intravision.Application.csproj" />
     <ProjectReference Include="..\Intravision.Domain\Intravision.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Configuration\" />
     <Folder Include="Database\" />
     <Folder Include="Scripts\" />
-    <Folder Include="Repo\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.9" />
   </ItemGroup>
 
 </Project>

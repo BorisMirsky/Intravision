@@ -1,0 +1,24 @@
+INSERT INTO Coins(Id, Denomination, Quantity) VALUES
+('0c1e7c3f-cfb6-40fa-8963-9507741af973', 1, 100),
+('f96f492b-a844-4fef-8cb1-125a7dd8f979', 2, 50),
+('7033dbb8-c2b2-4ba2-8fef-c6095ebb31fe', 5, 20),
+('19e8eff9-7c79-472f-88d9-e90d004de5c3', 10, 20)
+
+
+INSERT INTO Brands(Id, BrandName) VALUES
+('9c86d15d-96ed-40c5-826e-9f6d6d16d7fc', "Coca-Cola"),
+('efb87ead-2cb3-4e6a-bd74-8e2619b2abe3', "Pepsi"),
+('994b925b-b303-468c-8b56-48999cd15533', "7up"),
+('ca4d5b2d-d50d-4d5b-8ea6-0a9c4c817091', "Snickers"),
+('7e167fa0-bc86-4387-a8c0-9807807644e1', "Lay's")
+
+
+INSERT INTO Goods(Id, BrandName, Price, Quantity, BrandId) VALUES
+("7c154b7f-24fe-487d-8a80-0b62c7550ef5", "Coca-Cola", 50, 5, '9c86d15d-96ed-40c5-826e-9f6d6d16d7fc'),
+("bc5048a9-baf3-4d3c-8503-d231c4b21000", "Pepsi", 67, 3,  'efb87ead-2cb3-4e6a-bd74-8e2619b2abe3'),
+("dfdcbb09-efcd-43a1-97ba-deb8b5e39010", "7up", 85, 3, '994b925b-b303-468c-8b56-48999cd15533'),
+("f38d3a87-b979-4358-9f7f-1c69fce2803a", "Snickers", 72, 7, 'ca4d5b2d-d50d-4d5b-8ea6-0a9c4c817091'),
+("a1d81444-c89d-4a56-900b-3378f2d98885", "Lay's", 60, 6,  '7e167fa0-bc86-4387-a8c0-9807807644e1')
+
+
+
