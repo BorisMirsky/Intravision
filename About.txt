@@ -4,10 +4,10 @@
 
 
         Создать пустое решение. Туда положить 4 проекта:
-Domain (library template),           library template   1  
-Application (library template),      library template   2
-DataAccess (library template),       library template   3
-Web (Web API template).              Web API template   4
+Intravision.Domain (library template),           library template   1  
+Intravision.Application (library template),      library template   2
+Intravision.DataAccess (library template),       library template   3
+Intravision.Web (Web API template).              Web API template   4
 
 Всё ссылаются по направлению вовнутрь, т.е. на Domain - все, на Web никто.
 

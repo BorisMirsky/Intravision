@@ -1,0 +1,6 @@
+@Intravision.Web_HostAddress = http://localhost:5260
+
+GET {{Intravision.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

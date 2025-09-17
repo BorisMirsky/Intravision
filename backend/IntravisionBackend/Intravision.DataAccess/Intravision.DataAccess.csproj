@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Intravision.Application\Intravision.Application.csproj" />
+    <ProjectReference Include="..\Intravision.Domain\Intravision.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="Database\" />
+    <Folder Include="Scripts\" />
+    <Folder Include="Repo\" />
+  </ItemGroup>
+
+</Project>
