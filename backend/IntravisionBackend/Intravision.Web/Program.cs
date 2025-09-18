@@ -3,9 +3,7 @@ using Intravision.DataAccess;
 using Intravision.DataAccess.Repo;
 using Intravision.Application.Services;
 using Microsoft.EntityFrameworkCore;
-using System.Text;
-using Microsoft.AspNetCore.Authorization;
-//using Intravision.Application.Scripts;
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,8 +18,12 @@ builder.Services.AddDbContext<IntravisionDbContext>(options => options.UseSqlite
 builder.Services.AddControllers();
 
 builder.Services.AddScoped<IGoodService, GoodService>();
-
-builder.Services.AddOpenApi();
+builder.Services.AddScoped<IGoodRepo, GoodRepo>();
+builder.Services.AddScoped<IBrandService, BrandService>();
+builder.Services.AddScoped<IBrandRepo, BrandRepo>();
+builder.Services.AddScoped<ICoinService, CoinService>();
+builder.Services.AddScoped<ICoinRepo, CoinRepo>();
+//builder.Services.AddOpenApi();
 
 builder.Services.AddSwaggerGen();
 
@@ -31,13 +33,21 @@ var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    //app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
+//app.UseAuthorization();
 
-app.UseAuthorization();
-
+app.UseCors(x =>
+{
+    x.WithHeaders().AllowAnyHeader();
+    x.WithOrigins("http://localhost:3000");
+    x.WithMethods().AllowAnyMethod();
+});
+//app.UseRouting();
 app.MapControllers();
 
 app.Run();

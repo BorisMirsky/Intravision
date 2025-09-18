@@ -15,6 +15,9 @@ namespace Intravision.Domain.Models
         [Column("brandname")]
         public string BrandName { get; set; } = String.Empty;
 
+        [Column("description")]
+        public string Description { get; set; } = String.Empty;
+
         [Column("price")]
         public double Price { get; set; } = 0.0;
 
@@ -23,9 +26,9 @@ namespace Intravision.Domain.Models
 
         public Guid BrandId { get; set; }              // FK
 
-        public Brands Brands { get; set; }
+        public Brands? Brands { get; set; }
 
-        public List<Orders> Orders { get; set; } = new List<Orders>();
+        //public List<Orders> Orders { get; set; } = new List<Orders>();
 
     }
 }

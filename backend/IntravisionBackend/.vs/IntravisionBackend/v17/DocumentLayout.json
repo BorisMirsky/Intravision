@@ -3,40 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B5F5B2F-75A1-4C94-90CD-4A65C6FAE9AE}|Intravision.DataAccess\\Intravision.DataAccess.csproj|c:\\users\\alexander\\source\\intravision\\backend\\intravisionbackend\\intravision.dataaccess\\configuration\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5F5B2F-75A1-4C94-90CD-4A65C6FAE9AE}|Intravision.DataAccess\\Intravision.DataAccess.csproj|solutionrelative:intravision.dataaccess\\configuration\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B5F5B2F-75A1-4C94-90CD-4A65C6FAE9AE}|Intravision.DataAccess\\Intravision.DataAccess.csproj|c:\\users\\alexander\\source\\intravision\\backend\\intravisionbackend\\intravision.dataaccess\\configuration\\goodconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5F5B2F-75A1-4C94-90CD-4A65C6FAE9AE}|Intravision.DataAccess\\Intravision.DataAccess.csproj|solutionrelative:intravision.dataaccess\\configuration\\goodconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B5F5B2F-75A1-4C94-90CD-4A65C6FAE9AE}|Intravision.DataAccess\\Intravision.DataAccess.csproj|c:\\users\\alexander\\source\\intravision\\backend\\intravisionbackend\\intravision.dataaccess\\intravisiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5F5B2F-75A1-4C94-90CD-4A65C6FAE9AE}|Intravision.DataAccess\\Intravision.DataAccess.csproj|solutionrelative:intravision.dataaccess\\intravisiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD9C9FA4-3587-4821-A502-2A128A3FF01B}|Intravision.Web\\Intravision.Web.csproj|c:\\users\\alexander\\source\\intravision\\backend\\intravisionbackend\\intravision.web\\controllers\\coinscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9C9FA4-3587-4821-A502-2A128A3FF01B}|Intravision.Web\\Intravision.Web.csproj|solutionrelative:intravision.web\\controllers\\coinscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD9C9FA4-3587-4821-A502-2A128A3FF01B}|Intravision.Web\\Intravision.Web.csproj|c:\\users\\alexander\\source\\intravision\\backend\\intravisionbackend\\intravision.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD9C9FA4-3587-4821-A502-2A128A3FF01B}|Intravision.Web\\Intravision.Web.csproj|solutionrelative:intravision.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B5F5B2F-75A1-4C94-90CD-4A65C6FAE9AE}|Intravision.DataAccess\\Intravision.DataAccess.csproj|c:\\users\\alexander\\source\\intravision\\backend\\intravisionbackend\\intravision.dataaccess\\repo\\goodrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5F5B2F-75A1-4C94-90CD-4A65C6FAE9AE}|Intravision.DataAccess\\Intravision.DataAccess.csproj|solutionrelative:intravision.dataaccess\\repo\\goodrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD9C9FA4-3587-4821-A502-2A128A3FF01B}|Intravision.Web\\Intravision.Web.csproj|c:\\users\\alexander\\source\\intravision\\backend\\intravisionbackend\\intravision.web\\controllers\\goodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD9C9FA4-3587-4821-A502-2A128A3FF01B}|Intravision.Web\\Intravision.Web.csproj|solutionrelative:intravision.web\\controllers\\goodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4D5F4A86-E160-4BB6-B236-47F912F99DB4}|Intravision.Domain\\Intravision.Domain.csproj|c:\\users\\alexander\\source\\intravision\\backend\\intravisionbackend\\intravision.domain\\models\\goods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D5F4A86-E160-4BB6-B236-47F912F99DB4}|Intravision.Domain\\Intravision.Domain.csproj|solutionrelative:intravision.domain\\models\\goods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D5F4A86-E160-4BB6-B236-47F912F99DB4}|Intravision.Domain\\Intravision.Domain.csproj|c:\\users\\alexander\\source\\intravision\\backend\\intravisionbackend\\intravision.domain\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D5F4A86-E160-4BB6-B236-47F912F99DB4}|Intravision.Domain\\Intravision.Domain.csproj|solutionrelative:intravision.domain\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D5F4A86-E160-4BB6-B236-47F912F99DB4}|Intravision.Domain\\Intravision.Domain.csproj|c:\\users\\alexander\\source\\intravision\\backend\\intravisionbackend\\intravision.domain\\models\\brands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D5F4A86-E160-4BB6-B236-47F912F99DB4}|Intravision.Domain\\Intravision.Domain.csproj|solutionrelative:intravision.domain\\models\\brands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,84 +33,6 @@
               "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BrandConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.DataAccess\\Configuration\\BrandConfiguration.cs",
-              "RelativeDocumentMoniker": "Intravision.DataAccess\\Configuration\\BrandConfiguration.cs",
-              "ToolTip": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.DataAccess\\Configuration\\BrandConfiguration.cs",
-              "RelativeToolTip": "Intravision.DataAccess\\Configuration\\BrandConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:27:42.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GoodConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.DataAccess\\Configuration\\GoodConfiguration.cs",
-              "RelativeDocumentMoniker": "Intravision.DataAccess\\Configuration\\GoodConfiguration.cs",
-              "ToolTip": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.DataAccess\\Configuration\\GoodConfiguration.cs",
-              "RelativeToolTip": "Intravision.DataAccess\\Configuration\\GoodConfiguration.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:18:27.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IntravisionDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.DataAccess\\IntravisionDbContext.cs",
-              "RelativeDocumentMoniker": "Intravision.DataAccess\\IntravisionDbContext.cs",
-              "ToolTip": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.DataAccess\\IntravisionDbContext.cs",
-              "RelativeToolTip": "Intravision.DataAccess\\IntravisionDbContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCAAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:14:01.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.Web\\Program.cs",
-              "RelativeDocumentMoniker": "Intravision.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.Web\\Program.cs",
-              "RelativeToolTip": "Intravision.Web\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T15:58:09.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GoodRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.DataAccess\\Repo\\GoodRepo.cs",
-              "RelativeDocumentMoniker": "Intravision.DataAccess\\Repo\\GoodRepo.cs",
-              "ToolTip": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.DataAccess\\Repo\\GoodRepo.cs",
-              "RelativeToolTip": "Intravision.DataAccess\\Repo\\GoodRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T15:18:52.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GoodsController.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.Web\\Controllers\\GoodsController.cs",
-              "RelativeDocumentMoniker": "Intravision.Web\\Controllers\\GoodsController.cs",
-              "ToolTip": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.Web\\Controllers\\GoodsController.cs",
-              "RelativeToolTip": "Intravision.Web\\Controllers\\GoodsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T15:05:02.734Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
@@ -143,42 +41,46 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Orders.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.Domain\\Models\\Orders.cs",
-              "RelativeDocumentMoniker": "Intravision.Domain\\Models\\Orders.cs",
-              "ToolTip": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.Domain\\Models\\Orders.cs",
-              "RelativeToolTip": "Intravision.Domain\\Models\\Orders.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBgAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CoinsController.cs",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.Web\\Controllers\\CoinsController.cs",
+              "RelativeDocumentMoniker": "Intravision.Web\\Controllers\\CoinsController.cs",
+              "ToolTip": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.Web\\Controllers\\CoinsController.cs",
+              "RelativeToolTip": "Intravision.Web\\Controllers\\CoinsController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T08:40:22.172Z",
+              "WhenOpened": "2025-09-18T14:58:59.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Brands.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.Domain\\Models\\Brands.cs",
-              "RelativeDocumentMoniker": "Intravision.Domain\\Models\\Brands.cs",
-              "ToolTip": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.Domain\\Models\\Brands.cs",
-              "RelativeToolTip": "Intravision.Domain\\Models\\Brands.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T08:36:48.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Goods.cs",
               "DocumentMoniker": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.Domain\\Models\\Goods.cs",
               "RelativeDocumentMoniker": "Intravision.Domain\\Models\\Goods.cs",
               "ToolTip": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.Domain\\Models\\Goods.cs",
               "RelativeToolTip": "Intravision.Domain\\Models\\Goods.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIBAwBUAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAIBAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T08:30:58.299Z",
+              "WhenOpened": "2025-09-18T13:58:37.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Intravision.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Alexander\\source\\Intravision\\backend\\IntravisionBackend\\Intravision.Web\\Program.cs",
+              "RelativeToolTip": "Intravision.Web\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T15:58:09.042Z",
               "EditorCaption": ""
             }
           ]

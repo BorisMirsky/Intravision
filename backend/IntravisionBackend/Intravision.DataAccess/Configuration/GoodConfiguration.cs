@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Intravision.Domain.Models;
+﻿using Intravision.Domain.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System.Reflection.Emit;
 
 
 
@@ -14,14 +15,20 @@ namespace Intravision.DataAccess.Configuration
 
             builder.HasKey(p => p.Id);
 
-            builder.HasOne(b => b.BrandName)
-                .WithOne(d => d.Go)
-                .HasForeignKey<Goods>("BrandId")
-                .IsRequired();
+            // ?
+            //builder.HasOne(b => b.Brands)
+            //    .WithOne(d => d.Goods)
+            //    .IsRequired();
 
-            builder
-                .HasMany(p => p.Orders)
-                .WithOne(t => t.Goods);
+            //modelBuilder
+            //.Entity<User>()
+            //.HasOne(u => u.Profile)
+            //.WithOne(p => p.User)
+            //.HasForeignKey<UserProfile>(p => p.UserKey);
+
+            //builder
+            //    .HasMany(p => p.Orders)
+            //    .WithOne(t => t.Goods);
 
 
             builder.Property(p => p.Id)

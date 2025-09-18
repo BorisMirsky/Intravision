@@ -14,6 +14,6 @@ namespace Intravision.Domain.Models
         [Column("brandname")]
         public string BrandName { get; set; } = String.Empty;
 
-        public Goods GoodsTable { get; set; }
+        public Goods? Goods { get; set; }
     }
 }

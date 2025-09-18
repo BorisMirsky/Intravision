@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,7 +20,7 @@ namespace Intravision.DataAccess.Configuration
 
             builder.HasKey(p => p.Id);
 
-            builder.HasOne(b => b.GoodsTable)
+            builder.HasOne(b => b.Goods)
                 .WithOne(d => d.Brands)
                 .HasForeignKey<Goods>("BrandId")
                 .IsRequired();
