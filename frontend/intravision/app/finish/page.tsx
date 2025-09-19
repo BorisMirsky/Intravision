@@ -46,7 +46,7 @@ export default function FinishPage() {
         <div>
             <br /><br /><br /><br />
             <Row justify="space-evenly">
-                <Col span={5}><h3>Спасибо за покупку!</h3></Col>
+                <Col span={8}><h1>Спасибо за покупку!</h1></Col>
             </Row>
             <br />
             <Row justify="space-evenly">
@@ -54,19 +54,19 @@ export default function FinishPage() {
             </Row>
             <br />
             <Row justify="space-evenly">
-                <Col span={5}><h3>1 рубль: </h3></Col>
+                <Col span={3}><h5>1 рубль: </h5></Col>
             </Row>
             <br />
             <Row justify="space-evenly">
-                <Col span={5}><h3>2 рубля: </h3></Col>
+                <Col span={3}><h5>2 рубля: </h5></Col>
             </Row>
             <br />
             <Row justify="space-evenly">
-                <Col span={5}><h3>5 рублей: </h3></Col>
+                <Col span={3}><h5>5 рублей: </h5></Col>
             </Row>
             <br />
             <Row justify="space-evenly">
-                <Col span={5}><h3>10 рублей: </h3></Col>
+                <Col span={3}><h5>10 рублей: </h5></Col>
             </Row>
             <br />
             <Row justify="space-evenly">

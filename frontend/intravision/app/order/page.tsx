@@ -1,7 +1,8 @@
 ﻿"use client"
 
 import React from 'react';
-import PaymentInterface from '../Components/paymentInterfaceComponent';
+import OrderedInterface from '../Components/changeOrderedComponent';
+import DeleteFromOrderButton from '../Components/deleteFromOrderButtoncomponent';
 import { getAllCoins } from "@/app/Services/service";
 import { Col, Row, Layout, Button } from 'antd';
 const { Header, Content, Footer } = Layout;
@@ -66,9 +67,9 @@ export default function order() {
             <br />
             <Row justify="space-evenly">
                 <Col span={5}></Col>
-                <Col span={5}><PaymentInterface />  </Col>
+                <Col span={5}><OrderedInterface />  </Col>
                 <Col span={5}> </Col>
-                <Col span={5}> </Col>
+                <Col span={5}><DeleteFromOrderButton /> </Col>
             </Row>
             <br />
             <hr />

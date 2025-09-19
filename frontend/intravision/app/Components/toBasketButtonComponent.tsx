@@ -10,7 +10,7 @@ import "../globals.css";
 
 
 
-export default function SelectedButton() {
+export default function ToBasketButton() {
 
     const handleClick = () => {
         window.location.href = 'order';
@@ -20,16 +20,14 @@ export default function SelectedButton() {
 
     return (
         <div>
-            <div>
-                <Space>
+                    <br/>
                     <Button
-                        //key={s.id}
                         onClick={() => handleClick()}
                     //color={(!s.isBooked) ? "primary" : "danger"}
                     //variant="solid"
-                    >Выбрано</Button>
-                </Space>
-            </div>
+                    >
+                        Оформление заказа
+                    </Button>
         </div>
     );
 }

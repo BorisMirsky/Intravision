@@ -3,22 +3,18 @@
 
 import React from 'react';
 import { getAllBrands } from "@/app/Services/service";
-//import 'antd/dist/antd.css';
-import { Slider, Space } from "antd";  //Card, Button,
-//const { Meta } = Card;
+import { Slider, Space } from "antd";
 import { Brand } from "@/app/Models/Brand";
 import { useState, useEffect } from "react";
 import type { SliderSingleProps } from 'antd';
-//import Link from "next/link";
 import "../globals.css";
-//import Title from "antd/es/typography/Title";
-//import moment from 'moment';
 
 
 
 
 
 export default function SliderElement() {
+    const [disabled, setDisabled] = useState(false);
     //const [brands, setBrands] = useState<Brand[]>([]);
 
     //useEffect(() => {
@@ -29,26 +25,27 @@ export default function SliderElement() {
     //    getBrands();
     //    //console.log("brandsData ", brandsData);
     //    //  СТРОКУ НИЖЕ НЕ УБИРАТЬ !
-    //    // eslint-disable-next-line react-hooks/exhaustive-deps   
+    //    // eslint-disable-next-line react-hooks/exhaustive-deps
     //}, [brands]);
 
-    const handleSelectedBrand = (value: string) => {
-        console.log("666", value);
+    const onChange = (checked: boolean) => {
+        setDisabled(checked);
     };
 
-    const formatter: NonNullable<SliderSingleProps['tooltip']>['formatter'] = (value) => `${value}%`;
+    //const handleSelectedBrand = (value: string) => {
+    //    console.log("666", value);
+    //};
 
+    //const formatter: NonNullable<SliderSingleProps['tooltip']>['formatter'] = (value) => `${value}%`;
+    //tooltip = {{ formatter: null }}
 
 
     return (
         <div>
             <br /><br />
             <p>Стоимость</p>
-            <br />
             <div>
-                <Space direction="vertical" size={16}>
-                    <Slider tooltip={{ formatter: null }} />
-                </Space>
+                <Slider defaultValue={30} disabled={disabled} />
             </div>
         </div>
     );

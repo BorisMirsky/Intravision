@@ -15,6 +15,13 @@ export interface CardProps {
 }
 
 
+export interface CoinProps {
+    denomination: number;
+    quantity: number;
+    onDataSend(value: number): void;
+}
+
+
 export interface IOrderOneBrand {
     brand: string;
     quantity: number;

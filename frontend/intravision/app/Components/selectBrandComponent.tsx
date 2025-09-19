@@ -50,7 +50,6 @@ export default function SelectBrand() {
         <div>
             <br /><br />
             <p>Выберите товар</p>
-            <br />
             <div>
                 <Space direction="vertical" size={16}>
                     <Select
