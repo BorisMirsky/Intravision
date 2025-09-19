@@ -27,6 +27,7 @@ namespace Intravision.Web.Controllers
         [HttpGet]
         public async Task<ActionResult> GetGoods()
         {
+
             List<Goods> goods = await _goodService.GetAll();
 
             if (goods != null)

@@ -2,7 +2,7 @@
 "use client"
 
 import React from 'react';
-import { getAllGoods } from "@/app/Services/service";
+import { getAllGoods, CardProps } from "@/app/Services/service";
 import { Good } from "@/app/Models/Good";
 //import { Table } from "antd";
 import OneGoodCard from './oneGoodCardComponent';
@@ -29,18 +29,26 @@ export default function AllGoods() {
     }, [goods]);
 
 
+
+
+
     return (
         <div >
             <br /><br /><br />
             <br />
             <Row justify="space-evenly">
-                <Col span={4}><OneGoodCard /></Col>
-                <Col span={4}><OneGoodCard /></Col>
-                <Col span={4}><OneGoodCard /></Col>
-                <Col span={4}><OneGoodCard /></Col>
+                <Col span={5}><OneGoodCard {...goods[0]} /></Col>
+                <Col span={5}><OneGoodCard {...goods[1]} /></Col>
+                <Col span={5}><OneGoodCard {...goods[2]} /></Col>
+                <Col span={5}><OneGoodCard {...goods[3]} /></Col>
             </Row>
-
-            <br /><br /><br />
+            <Row justify="space-evenly">
+                <Col span={5}><OneGoodCard {...goods[4]} /></Col>
+                <Col span={5}><OneGoodCard {...goods[5]} /></Col>
+                <Col span={5}><OneGoodCard {...goods[6]} /></Col>
+                <Col span={5}><OneGoodCard {...goods[7]} /></Col>
+            </Row>
+            <br /><br /><br /><br /><br /><br />
         </div>
     );
 }

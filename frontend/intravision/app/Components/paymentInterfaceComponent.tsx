@@ -3,45 +3,33 @@
 
 import React from 'react';
 //import { getAllCoins } from "@/app/Services/service";
-import { Input, Button, Space } from 'antd';
-import { useState, useEffect } from "react";
+import { Input, Button } from 'antd';
+import { useState } from "react";    
 
 import "../globals.css";
 
 
 
-
-
-
 export default function PaymentInterface() {
-    //const [counter, setCounter] = useState<number>();
+    const [counter, setCounter] = useState(0);
 
-    //useEffect(() => {
-        //setCounter(0);
-        //const getCoins = async () => {
-        //    const responce = await getAllCoins();
-        //    setCoins(responce);
-        //}
-        //getCoins();
-        //  СТРОКУ НИЖЕ НЕ УБИРАТЬ !
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    //}, [counter]);
-
-
-    let counter_: number;
+    const increment = (num: number): void => {
+        setCounter(counter + num);
+    }
     
 
     const handleMinusButton = () => {
-        counter_ --;
-        //setCounter(counter_);
-        console.log("counterMinus ", counter_);
+        if (counter > 0)
+        {
+            increment(-1);
+        }
+        console.log("counterMinus ", counter);
     }
 
 
     const handlePlusButton = () => {
-        counter_ ++;
-        //setCounter(counter_);
-        console.log("counterPlus ", counter_);
+        increment(1);
+        console.log("counterPlus ", counter);
     }
 
 
@@ -55,7 +43,8 @@ export default function PaymentInterface() {
             </Button>
             <Input
                 style={{ width: 50 }}
-                defaultValue={counter_}
+                //defaultValue={counter}
+                value={counter}
             />
             <Button
                 onClick={() => handlePlusButton()}

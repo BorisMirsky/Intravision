@@ -2,14 +2,27 @@
 
 ////////////////////////////////   props / interfaces / responses / requestes    /////////
 
-interface CardProps {
+export interface CardProps {
+    brandId: string;
     brandName: string;
+    brands: undefined; 
     description: string; 
     price: number;
-    isActive: boolean;
+    img: string;
+    quantity: number;
+    id: string;
+    //isActive: boolean;
 }
 
-interface CoinRequest {
+
+export interface IOrderOneBrand {
+    brand: string;
+    quantity: number;
+    ordered: number;
+}
+
+
+export interface CoinRequest {
     denomination: number;
     quantity: number;
 }

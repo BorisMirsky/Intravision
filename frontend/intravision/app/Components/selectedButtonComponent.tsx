@@ -13,7 +13,7 @@ import "../globals.css";
 export default function SelectedButton() {
 
     const handleClick = () => {
-        window.location.href = 'payment';
+        window.location.href = 'order';
         console.log("___Button Selected___");
     };
 

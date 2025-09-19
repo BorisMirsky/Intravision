@@ -18,6 +18,9 @@ namespace Intravision.Domain.Models
         [Column("description")]
         public string Description { get; set; } = String.Empty;
 
+        [Column("img")]
+        public string Img { get; set; } = String.Empty;
+
         [Column("price")]
         public double Price { get; set; } = 0.0;
 

@@ -7,8 +7,6 @@ import { Col, Row, Layout } from 'antd';
 
 
 export default function Home() {
-
-
     const GoodsPage = async () => {
         window.location.href = 'goods';
         //router.push("/updateorder?id=" + id);

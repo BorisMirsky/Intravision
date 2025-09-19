@@ -7,7 +7,7 @@ import SliderElement from '../Components/sliderComponent';
 import ButtonImport from '../Components/buttonImportComponent';
 import SelectedButton from '../Components/selectedButtonComponent';
 import { Col, Row, Layout } from 'antd';
-const { Header, Content, Footer } = Layout;
+//const { Header, Content, Footer } = Layout;
 //import styles from "./page.module.css";
 
 
@@ -16,18 +16,20 @@ export default function goods() {
             <div>
                 <br /><br /> <br />
             <Row justify="space-evenly">
-                    <Col span={5}><h2>Каталог товаров</h2></Col>
-                    <Col span={5}></Col>
-                    <Col span={5}><ButtonImport /></Col>
+                    <Col span={6}><h2>Каталог товаров</h2></Col>
+                    <Col span={6}></Col>
+                    <Col span={6}><ButtonImport /></Col>
                 </Row>
                 <br />
             <Row justify="space-evenly">
-                    <Col span={5}><SelectBrand /></Col>
-                    <Col span={5}><SliderElement /></Col>
-                    <Col span={5}><SelectedButton /></Col>
+                    <Col span={6}><SelectBrand /></Col>
+                    <Col span={6}><SliderElement /></Col>
+                    <Col span={6}><SelectedButton /></Col>
                 </Row>
-                <br />
-                <AllGoods />
+            <br />
+            <hr />
+            <br/>
+            <AllGoods />
             </div >
     );
 }
