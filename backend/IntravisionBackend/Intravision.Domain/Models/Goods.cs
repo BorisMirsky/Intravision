@@ -31,7 +31,7 @@ namespace Intravision.Domain.Models
 
         public Brands? Brands { get; set; }
 
-        //public List<Orders> Orders { get; set; } = new List<Orders>();
+        public List<Orders> Orders { get; set; } = new List<Orders>();
 
     }
 }

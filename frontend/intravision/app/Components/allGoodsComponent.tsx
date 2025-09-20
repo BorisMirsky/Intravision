@@ -24,12 +24,12 @@ export default function AllGoods() {
             setGoods(responce);
         }
         getGoods();
-        //  СТРОКУ НИЖЕ НЕ УБИРАТЬ !
-        // eslint-disable-next-line react-hooks/exhaustive-deps   
+        //eslint-disable-next-line react-hooks/exhaustive-deps   
     }, [goods]);
 
 
-
+    //console.log("goods ", goods);
+    //console.log('typeof goods ', typeof goods);
 
 
     return (

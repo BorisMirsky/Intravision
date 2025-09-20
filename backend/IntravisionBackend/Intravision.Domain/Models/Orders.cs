@@ -28,7 +28,7 @@ namespace Intravision.Domain.Models
         [Column("amount")]
         public int Amount { get; set; } = 0;
 
-        public int GoodId { get; set; }                      // FK
+        //public int GoodId { get; set; }                      // FK
 
         public Goods Goods { get; set; } 
     }

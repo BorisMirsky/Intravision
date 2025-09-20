@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Intravision.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+036009178e574dbe038716d58eff099aca08aa13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f53d08b73f0dd2a61b6d2056f57b14064fd9ea7d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Intravision.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Intravision.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

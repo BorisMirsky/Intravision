@@ -18,7 +18,7 @@ namespace Intravision.DataAccess
         public DbSet<Goods> Goods { get; set; } = null!;
         public DbSet<Coins> Coins { get; set; } = null!;
         public DbSet<Brands> Brands { get; set; } = null!;
-        //public DbSet<Orders> Orders { get; set; } = null!;
+        public DbSet<Orders> Orders { get; set; } = null!;
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -30,7 +30,7 @@ namespace Intravision.DataAccess
             modelBuilder.ApplyConfiguration(new Configuration.GoodConfiguration());
             modelBuilder.ApplyConfiguration(new Configuration.CoinConfiguration());
             modelBuilder.ApplyConfiguration(new Configuration.BrandConfiguration());
-            //modelBuilder.ApplyConfiguration(new Configuration.OrderConfiguration());
+            modelBuilder.ApplyConfiguration(new Configuration.OrderConfiguration());
             base.OnModelCreating(modelBuilder);
         }
     }

@@ -23,6 +23,8 @@ builder.Services.AddScoped<IBrandService, BrandService>();
 builder.Services.AddScoped<IBrandRepo, BrandRepo>();
 builder.Services.AddScoped<ICoinService, CoinService>();
 builder.Services.AddScoped<ICoinRepo, CoinRepo>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IOrderRepo, OrderRepo>();
 //builder.Services.AddOpenApi();
 
 builder.Services.AddSwaggerGen();

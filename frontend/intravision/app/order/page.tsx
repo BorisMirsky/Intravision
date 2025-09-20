@@ -12,7 +12,7 @@ import { useState, useEffect } from "react";
 
 
 
-export default function order() {
+export default function OrderPage() {
     const [coins, setCoins] = useState<string[]>([]);
 
     useEffect(() => {

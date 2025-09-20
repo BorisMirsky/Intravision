@@ -56,6 +56,7 @@ export const getAllGoods = async () => {
             }
         })
         .then(data => {
+            console.log('Goods: ', data);
             return data;
         })
         .catch(function (err) {
@@ -117,7 +118,7 @@ export const getAllCoins = async () => {
             }
         })
         .then(data => {
-            //console.log("COINS ", data);
+            console.log("COINS ", data);
             return data;
         })
         .catch(function (err) {
@@ -126,6 +127,36 @@ export const getAllCoins = async () => {
     return response;
 };
 
+
+export const getAllOrders = async () => {
+    const response = await fetch("http://localhost:5260/orders/getorders", {
+        headers: {
+            'Content-type': 'application/json',
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Credentials": 'true',
+            "Access-Control-Allow-Headers": "Content-Type",
+            "Access-Control-Allow-Methods": 'GET',
+        },
+        method: 'GET',
+        mode: 'cors'
+    })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Not response", { cause: response });
+            }
+            else {
+                return response.json();
+            }
+        })
+        .then(data => {
+            console.log("Orders ", data);
+            return data;
+        })
+        .catch(function (err) {
+            console.log('Error: ', err);
+        });
+    return response;
+};
 
 
 export const updateOrder = async (request: CoinRequest) => {

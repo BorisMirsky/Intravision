@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Intravision.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6770aefafa7655cba931900eef6d359a12453f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f53d08b73f0dd2a61b6d2056f57b14064fd9ea7d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Intravision.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Intravision.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

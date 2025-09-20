@@ -1,24 +1,50 @@
-﻿
+﻿'use client';
+
 import React from 'react';
-//import { useState } from "react";
-import { Good } from "@/app/Models/Good";
+import { useContext } from "react";
+import { Coin } from '../Models/Coin';
+import { Good } from '../Models/Good';
+import { Order } from '../Models/Order';
 
 
-export type GoodContextType = {
-    goodsProps: Good[];
-};
+//export interface IUser {       //export type IUser = {
+//    name: string,
+//    age: number
+//}
+//export const user: IUser = {
+//    name: undefined,
+//    age: undefined
+//}
+//const UserContext = React.createContext<IUser>(user);
+//export function useUserData() {
+//    return useContext(UserContext);
+//}
+//export default UserContext;
 
-//const GoodsContext = React.createContext(null);
-//const goodsProps: Array<Good> = [];
+///////////////////////////////////////////////////////////////////
 
 
-interface Test {
-    testString: string;
+
+
+export interface IData {
+    goods: Array<Good>;
+    coins: Array<Coin>;
+    orders: Array<Order>;
 }
 
-const TestContext = React.createContext<Test>({
-    testString: "___666___"
-});
+const appData: IData = {
+    goods: undefined,
+    coins: undefined,
+    orders: undefined
+};
 
 
-export default TestContext;
+const DataContext = React.createContext<IData>(appData);
+export function useData() {
+    return useContext(DataContext);
+}
+export default DataContext;
+
+
+
+

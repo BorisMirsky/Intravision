@@ -1,30 +1,63 @@
-﻿
-//"use client"
-// 3 contexts for Orders, Goods, Coins
-
+﻿'use client';
 
 import React from 'react';
-//import { useState } from "react";
-//import { Good } from "@/app/Models/Good";
-import './App.css';
-import GoodsContext from './AppContext';
-import TestContext from './AppContext';
+//import UserContext, { IUser } from './AppContext';  
+import DataContext, { IData } from './AppContext';  
+import { Coin } from '../Models/Coin';
+import { Good } from '../Models/Good';
+import { Order } from '../Models/Order';
+import { getAllGoods, getAllCoins, getAllOrders } from "@/app/Services/service";
+import { useEffect, useState } from "react";
 
 
 
-const GoodsContextProvider = () => (
-    <GoodsContext.Provider value="GoodsContextParentPage">
-        <h1>Ура, вместе с Gitverse создали провайдера!</h1>
-    </GoodsContext.Provider>
-);
+const DataContextProvider: React.FC<{ children: React.ReactNode }> = ({ children, }) => {
+    const [goods, setGoods] = useState<Good[]>([]);
+    const [coins, setCoins] = useState<Coin[]>([]);
+    const [orders, setOrders] = useState<Order[]>([]);
+
+    useEffect(() => {
+        const getData = async () => {
+            const responceGoods = await getAllGoods();
+            const responceCoins = await getAllCoins();
+            const responceOrders = []; // await getAllOrders();
+            setGoods(responceGoods);
+            setCoins(responceCoins);
+            setOrders(responceOrders);
+        }
+        getData();
+        //eslint-disable-next-line react-hooks/exhaustive-deps   
+    }, [goods, orders, coins]);
+
+    const appData: IData = {
+        goods: goods,
+        coins: coins,
+        orders: orders
+    };
+    return (
+        <DataContext.Provider value={appData}>
+            {children}
+        </DataContext.Provider>
+    );
+};
+
+export default DataContextProvider;
 
 
-const test = { testString: 'black' };
 
-const TestContextProvider = () => (
-    <TestContext.Provider value="test">
-        <h1>Ура, вместе с Gitverse создали провайдера!</h1>
-    </TestContext.Provider>
-);
+//const value: IUser = {
+//    name: "Bob",
+//    age: 20
+//};
+//const UserContextProvider: React.FC<{ children: React.ReactNode }> = ({ children, }) =>
+//    return (
+//        <UserContext.Provider value={value}>
+//            {children}
+//        </UserContext.Provider>
+//    );
+//};
+//export default UserContextProv
 
-export default GoodsContextProvider;
+//const goodsData: Array<Good> = [];
+//const coinsData: Array<Coin> = [];
+//const ordersData: Array<Order> = [];

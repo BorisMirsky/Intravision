@@ -1,0 +1,88 @@
+
+
+Context состоит из трёх массивов: 8 объектов типа Good, 8 Order, 4 Coins.
+
+
+Т.е. все три контекста оборачивать вокруг App
+page Goods: получает контексты: Goods & Orders
+
+page Orders:                      Orders
+
+page Payment:                     Goods, Orders, Coins
+
+page Finish:                      Coins
+
+
+
+Пишу небольшое приложение, на фронтенде React, Next, Typescript. Надо создать контекст.
+Он должен содержать три массива трёх типов данных:
+
+inteface Goods {
+    brandName : string;
+    price : number;
+    quantity : number;
+}
+
+inteface Orders {
+    brandName : string;
+    quantity : number;
+    amount : number;
+}
+
+inteface Coins {
+   denomination : number;
+   quantity : number;
+}
+
+
+inteface myContext {
+   goods: Array<Goods> = [];
+   orders: Array<Orders> = [];
+   coins: Array<Coins> = [];
+}
+
+Данных каждого вида от 5 до 10.
+
+Как их уместить в одном контексте и потом использовать?
+
+В каком виде приходят данные на примере goods (Object ?)
+
+Можно ли обернуть в провайдер каждую page? (Это напомню, Next).
+Или лучше это сделать с Home?
+
+Как менять состояние, пример?
+
+
+
+#################################
+
+antd Upload file xslx
+react typescript read excel file
+antd read local file  (internal)
+
+
+
+################################
+
+Утром написать и задать вопрос про контекст
+Пока не ответят - попробовать сделать самому простейший контекст со строкой
+
+Слайдер - ограничения и установка ползунка
+
+Думать над загрузкой внешнего файла
+Подумать - как ограничить доступ к более чем одной странице
+
+Картинки и карточки - как получше сделать
+Картинки одинакового размера
+
+Страница Заказы: Если все товары убраны, 
+     то показывается сообщение вида «У вас нет ни одного товара, 
+     вернитесь на страница каталога».
+
+Оплата: цвет суммы и кнопки *Оплатить*
+
+https://stackoverflow.com/questions/75830686/read-excel-xlsx-file-in-typescript
+
+
+
+

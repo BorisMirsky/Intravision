@@ -2,16 +2,16 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System.Reflection.Emit;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 
 
 
 namespace Intravision.DataAccess.Configuration
 {
-    public class GoodConfiguration : IEntityTypeConfiguration<Goods>
+    public class OrderConfiguration : IEntityTypeConfiguration<Orders>
     {
-        public void Configure(EntityTypeBuilder<Goods> builder)
+
+        public void Configure(EntityTypeBuilder<Orders> builder)
         {
 
             builder.HasKey(p => p.Id);
@@ -21,17 +21,19 @@ namespace Intravision.DataAccess.Configuration
             //    .WithOne(d => d.Goods)
             //    .IsRequired();
 
-            builder
-                .HasMany(p => p.Orders)
-                .WithOne(t => t.Goods);
+            //builder
+            //    .HasMany(p => p.Orders)
+            //    .WithOne(t => t.Goods);
 
             builder.Property(p => p.Id)
                 .IsRequired();
-            builder.Property(p => p.BrandId)
+            builder.Property(p => p.OrderId)
                 .IsRequired();
             builder.Property(p => p.BrandName)
                 .IsRequired();
-            builder.Property(p => p.Price)
+            builder.Property(p => p.DateTime)
+                .IsRequired();
+            builder.Property(p => p.Amount)
                 .IsRequired();
             builder.Property(p => p.Quantity);
         }
